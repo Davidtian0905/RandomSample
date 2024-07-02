@@ -14,12 +14,12 @@
 
 ### ProcessRandomSample.lua：
 
-- 读取之前保存的设置。
-- 对选中的音频项进行随机处理，包括：
+1、读取之前保存的设置。
 
-1.随机调整位置（基于毫秒）
-2.随机调整音高（基于音分）
-3.随机调整音量（基于分贝）
+2、对选中的音频项进行随机处理，包括：
+- 随机调整位置（基于毫秒）
+- 随机调整音高（基于音分）
+- 随机调整音量（基于分贝）
 
 
 
@@ -29,7 +29,7 @@
 
 - 将SettingRandomSample.lua和ProcessRandomSample.lua保存到REAPER的Scripts目录中。
 - 通常路径为：[REAPER安装目录]/Scripts/
-- 路径：C:\Users\User(你的电脑用户名)\AppData\Roaming\REAPER\Scripts\
+- 路径示例：C:\Users\User(你的电脑用户名)\AppData\Roaming\REAPER\Scripts\
 
 
 ## 在REAPER中加载脚本：
